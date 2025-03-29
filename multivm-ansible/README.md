@@ -24,24 +24,11 @@ This example was developed and tested on:
 vagrant plugin install vagrant-vmware-desktop  # For VMware
 vagrant plugin install vagrant-parallels      # For Parallels
 
-# Create and provision VMs
+# Show available commands
+make help
+
+# Example: Create and provision VMs
 make up
-
-# Run Ansible playbook directly on hosts
-make provision-host
-
-# Full test cycle (clean -> up -> provision -> clean)
-make test
-```
-
-## Available Make Targets
-
-```bash
-make help          # Show all available targets
-make up           # Create and provision VMs
-make provision    # Run Ansible playbook via Vagrant
-make destroy      # Destroy VMs
-make clean        # Full cleanup (VMs, .vagrant, venv)
 ```
 
 ## Environment
