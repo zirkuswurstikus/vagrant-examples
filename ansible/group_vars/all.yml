@@ -1,0 +1,3 @@
+---
+# Example variables for all hosts
+message_all: "Hello from group 'all'" 

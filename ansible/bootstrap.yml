@@ -1,0 +1,18 @@
+---
+- name: Bootstrap all nodes
+  hosts: all
+  become: true
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Upgrade all packages
+      apt:
+        upgrade: dist
+        force_apt_get: yes
+
+    - name: Show messages
+      debug:
+        msg: "{{ message_host }} ({{ message_group }} / {{ message_all }})" 

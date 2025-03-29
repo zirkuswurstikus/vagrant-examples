@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vagrant
+.vagrant/
+*.box
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Ansible
+*.retry 

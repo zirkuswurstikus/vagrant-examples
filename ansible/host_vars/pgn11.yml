@@ -1,0 +1,3 @@
+---
+# Example variables for pgn11
+message_host: "Hello from host 'pgn11'" 

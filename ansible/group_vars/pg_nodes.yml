@@ -1,0 +1,3 @@
+---
+# Example variables for pg_nodes group
+message_group: "Hello from group 'pg_nodes'" 
