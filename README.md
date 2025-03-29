@@ -9,6 +9,7 @@ A collection of Vagrant examples for different use cases and configurations.
 A multi-VM setup using Vagrant with VMware or Parallels provider and Ansible provisioning:
 - 2 Debian 12 VMs
 - Support for VMware Fusion/Workstation and Parallels Desktop Pro
+- Tested on macOS with Apple Silicon
 - Ansible for configuration
 - Make-based workflow
 - Python virtual environment

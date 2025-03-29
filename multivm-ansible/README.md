@@ -10,6 +10,13 @@ A Vagrant environment demonstrating multi-VM setup with Ansible provisioning.
   - VMware Fusion/Workstation with vagrant-vmware-desktop plugin
   - Parallels Desktop Pro with vagrant-parallels plugin
 
+## Development Environment
+
+This example was developed and tested on:
+- macOS running on Apple Silicon (M1/M2)
+- VMware Fusion and Parallels Desktop Pro
+- Debian 12 ARM64 boxes
+
 ## Quick Start
 
 ```bash
@@ -43,6 +50,7 @@ make clean        # Full cleanup (VMs, .vagrant, venv)
 - Python virtual environment for dependencies
 - Ansible for configuration management
 - Works with both VMware and Parallels providers
+- Native performance on Apple Silicon through ARM64 boxes
 
 ## Structure
 
